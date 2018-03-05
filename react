@@ -1,0 +1,67 @@
+primeiro instalar o nodejs na sua maquina
+
+
+sudo npm install create-react-app
+./node_modules/.bin/create-react-app cdc-admin
+
+npm install jquery --save
+npm install --save pubsub-js
+npm install --save react-router
+npm install --save react-router@3
+
+//publicar o projeto
+npm run build
+npm install pushstate-server
+//levantar o projeto depois do buil
+./node_modules/.bin/pushstate-server
+
+npm start
+
+
+
+Uma última dica: existe um projeto chamado React Toobox.
+
+
+
+endereço heroku: 
+cdc-react.herokuapp.com/api/autores
+
+ou
+
+//////////////////DOCKER/////////////////////////////////
+
+dokcer
+docker-compose -f stack.yml up
+//////////////////JAR///////////////////////////
+
+java -jar jar-cdc-react.jar
+java -jar cdcreact-1.0.0-SNAPSHOT\(1\).jar 
+
+///////////////////////////////////////////////////////////
+
+
+
+
+
+Descobrindo tudo que ficou escondido até agora
+
+A ideia agora é que a gente tente dar uma olhada em tudo que o create-react-app escondeu para a gente. Para você não mexer no seu projeto do curso, faça o seguinte:
+
+    Acesse o projeto no github => https://github.com/asouza/projeto-react-alura
+    Aí você vai na sua máquina e realiza o clone do projeto ou você baixa direto pelo botão do github.
+
+É importante ter outra versão do projeto, porque uma vez que ejetarmos a configuração, não poderemos voltar atrás. Uma vez que o projeto estiver baixado, entre na pasta dele e rode a seguinte sequência de comandos:
+
+    npm install (para instalar as dependências do projeto)
+    sudo npm run eject (comando pronto do create-react-app para "ejetar" a configuração escondida) 
+
+A sugestão de rodar o comando sudo serve para usuários que estejam com Linux ou Mac e tenham instalado o Node como super usuário. Caso você esteja no Windows ou não tenha instalado como root, o sudo não é necessário.
+
+
+////////////////////////Proximos cursos///////////
+
+https://cursos.alura.com.br/recommendations/course/479
+
+
+
+
